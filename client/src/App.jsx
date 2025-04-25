@@ -1,3 +1,14 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">iwaliwn</h1>;
+import React from 'react'
+import Navbar from './components/NavBar'
+import Footer from './components/Footer'
+
+function App() {
+  return (
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
+  )
 }
+
+export default App
