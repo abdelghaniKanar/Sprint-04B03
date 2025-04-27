@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "demo",
+            "email": "demo@example.com",
+            "password": "password123"
+        }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "title": "Getting Started with React",
+            "content": "React is a JavaScript library for building user interfaces...",
+            "imageUrl": "https://picsum.photos/800/400",
+            "category": "Technology",
+            "authorId": 1,
+            "createdAt": "2025-04-25T10:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "title": "The Art of Cooking",
+            "content": "Cooking is both an art and a science that requires patience...",
+            "imageUrl": "https://picsum.photos/800/401",
+            "category": "Food",
+            "authorId": 1,
+            "createdAt": "2025-04-26T09:30:00.000Z"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "articleId": 1,
+            "userId": 1,
+            "content": "Great article! Very helpful.",
+            "createdAt": "2025-04-26T14:00:00.000Z"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Technology"
+        },
+        {
+            "id": 2,
+            "name": "Food"
+        },
+        {
+            "id": 3,
+            "name": "Travel"
+        },
+        {
+            "id": 4,
+            "name": "Health"
+        }
+    ]
+}
