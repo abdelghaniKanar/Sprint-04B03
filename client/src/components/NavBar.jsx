@@ -11,7 +11,7 @@ function NavBar() {
           <div className="flex shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                className="h-7 w-auto"
+                className="h-32 w-auto"
                 src={img}
                 alt="Logo"
               />
